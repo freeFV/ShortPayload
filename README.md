@@ -6,6 +6,8 @@
 
 例如：`java -jar ShortPayload.jar CC6 "calc.exe"`
 
+相关技术文章已提交先知社区，正在审核中
+
 ## 效果
 
 注意：这里的长度是指反序列化`Payload`进行`Base64`编码后的长度
