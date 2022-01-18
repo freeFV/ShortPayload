@@ -13,6 +13,7 @@ public class ShortClassVisitor extends ClassVisitor {
 
     @Override
     public MethodVisitor visitMethod(int access, String name, String descriptor, String signature, String[] exceptions) {
+        // delete transform method
         if (name.equals("transform")) {
             return null;
         }

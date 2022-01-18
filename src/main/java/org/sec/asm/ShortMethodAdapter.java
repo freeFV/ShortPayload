@@ -6,19 +6,8 @@ import org.objectweb.asm.Opcodes;
 
 public class ShortMethodAdapter extends MethodVisitor implements Opcodes {
 
-    private final String methodName;
-
     public ShortMethodAdapter(int api, MethodVisitor mv, String methodName) {
         super(api,mv);
-        this.methodName = methodName;
-    }
-
-    @Override
-    public void visitCode() {
-//        if(!methodName.equals("<init>")){
-//            super.visitCode();
-//        }
-        super.visitCode();
     }
 
     @Override
