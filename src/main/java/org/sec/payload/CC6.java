@@ -38,6 +38,6 @@ public class CC6 extends Payload {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return null;
+        return new byte[]{};
     }
 }
