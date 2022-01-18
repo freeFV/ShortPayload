@@ -6,7 +6,7 @@
 
 例如：`java -jar ShortPayload.jar CC6 "calc.exe"`
 
-相关技术文章已提交先知社区，正在审核中
+相关技术文章：https://xz.aliyun.com/t/10824
 
 ## 效果
 
